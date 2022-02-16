@@ -1,7 +1,7 @@
 const eightballImg = document.getElementById("eightball-img");
 const questionInput = document.getElementById("question");
 
-// onClick function for an answer
+// onClick function for an answerx
 const rndImg = () => {
     let rng = Math.floor(Math.random() * 20 + 1);
     questionInput.value === "" ? 
