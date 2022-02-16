@@ -1,4 +1,3 @@
-const askBtn = document.getElementById("ask-btn");
 const eightballImg = document.getElementById("eightball-img");
 const questionInput = document.getElementById("question");
 
