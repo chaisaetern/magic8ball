@@ -3,16 +3,40 @@ body, .container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Shizuru', cursive;
+    margin: 2px;
+    padding: 2px;
 }
 
 input {
     margin: 2px;
     padding: 2px;
-    width: 10rem;
+    width: 15rem;
     text-align: center;
+    height: 2rem;
+}
+
+#ask-btn {
+    background-color: #00ff00;
+    border: 2px solid #00ff00;
+    box-shadow: inset;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#ask-btn:hover {
+    background-color: #008e00;
 }
 
 #eightball-img {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
 }
